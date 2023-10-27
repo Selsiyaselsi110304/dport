@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    width: 100%;
+    height: 85px;
+    padding: 50px;
+    background-color: rgb(45, 123, 190);
+    justify-content: space-between;
+    opacity: 85%;
+    align-items: center;
+}
+
+marquee {
+    width: 50%;
+    height: 30px;
+    color: orange;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(230, 34, 148);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+li {
+    display: inline-table;
+    list-style: none;
+    padding: 20PX;
+}
+li a {
+    font-size: 20px;
+    font-family: 500;
+    margin-right: 1px;
+    color: rgb(247, 24, 117);
+    cursor: pointer;
+    text-decoration: none;
+}
+li a:hover {
+    color: rgb(255, 217, 0);
+}
+
+.button a {
+    font-size: 15px;
+    font-weight: 500;
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+button:hover {
+    background-color: orange;
+}
+
+#home {
+    font-size: 80px;
+    background-image: url("scl.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(230, 11, 183);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(65, 233, 14);
+}
+
+#about {
+    box-shadow: 2px 2px 15px rgba(219, 213, 213, 0.8);
+    padding: 5.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    background-image: url("abt.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(228, 11, 47);
+
+}
+
+#con {
+    font-size: 15px;
+    background-image: url("cont.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgb(207, 16, 159);
+}
+
+.contain-item {
+    height: 500vh;
+    width: 200%;
+    background-size: cover;
+    background-position: center;
+}
